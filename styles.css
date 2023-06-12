@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --app-color: #943fb5;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--app-color);
+}
+
+.card {
+  max-width: 370px;
+  padding: 20px 25px;
+  padding-bottom: 30px;
+  background-color: #fcfefd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-details {
+  margin-top: -3rem;
+}
+
+.product-img {
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  margin-top: -5rem;
+  margin-right: -20rem;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 12px;
+  color: gray;
+}
+
+.card h1 {
+  color: #111111;
+  font-weight: bold;
+}
+
+.ratings {
+  margin-top: 12px;
+}
+
+.ratings img {
+  width: 20px;
+  height: 20px;
+}
+
+.bottom-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-container h3 {
+  display: inline;
+}
+
+button {
+  margin-top: 1.5rem;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    #9336b4 0%,
+    #9336b4 51%,
+    #dd58d6 100%
+  );
+}
+
+input {
+  width: 12%;
+  height: 2em;
+}
+
+.one {
+  accent-color: red;
+}
+
+.two {
+  accent-color: blue;
+}
+
+.three {
+  accent-color: green;
+}
+
+.radio-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
